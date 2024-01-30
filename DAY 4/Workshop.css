@@ -1,0 +1,74 @@
+.work-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://img.freepik.com/free-photo/people-with-laptops-office_23-2147656717.jpg?w=900&t=st=1706300445~exp=1706301045~hmac=af8c69c69ab3a5220c35cf7b1c691f5cb4147e410578eb6779d052883ec62c2f");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards; 
+  }
+
+
+  .work-intro h1 {
+    font-size: 60px;
+    color: #e6dbdb;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom:300px;
+  }
+  .work-intro h3 {
+    font-size: 60px;
+    color: #e6dbdb;
+    font-weight: bold;
+    margin: 0;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.work-about h2{
+    font-display: center;
+    text-transform: none;
+    text-align: center;
+  font-feature-settings: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.54444em;
+  font-size: 25px;
+  font-weight: 400;
+  overflow-wrap: normal;
+  color: rgb(38, 38, 38);
+  }
+
+  .work-hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f1e7e0;
+    max-width: AUTO;
+    margin:0 auto;
+  }
+  
+  .work-hero h2 {
+    margin-bottom: 20px;
+  max-width: 82%; /* Make the text responsive within the max-width */
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  @media (max-width: 768px) {
+    .work-intro h1,
+    .work-intro h3 {
+        font-size: 40px; /* Adjust the font size for smaller screens */
+    }
+}
