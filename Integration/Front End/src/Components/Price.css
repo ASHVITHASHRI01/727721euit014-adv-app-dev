@@ -1,0 +1,156 @@
+/* StudioInfo.css */
+.price-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://source.unsplash.com/1600x900/?yoga");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0; /* Start with opacity 0 for fade-in effect */
+    animation: fadeIn 2s ease-in-out forwards; /* Animation properties */
+  }
+
+
+  .price-intro h1 {
+    font-size: 60px;
+    color: #e6dbdb;
+    font-weight: bold;
+    margin: 0;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.entire-container{
+    background-color: #f1e7e0;
+}
+.studio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    margin: 10px;
+    /* background-color: #f0f0f0; */
+    /* color:pink; */
+    /* flex-direction: column; */
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+
+.tree1-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #dd6f6f;
+    max-width: 20%;
+  }
+  .tree2-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #763e3e;
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -190px;
+    /* position: fixed; */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    /* display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #763e3e;
+    max-width: 20%; */
+  
+  .tree3-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #9e3232;
+    max-width: 20%;
+  }
+  .tree-info {
+    text-align: center;
+    max-width: 300px; 
+  }
+  
+  .tree-icon {
+    font-size: 2em;
+    color: #4caf50; /* Green color for the tree icon */
+  }
+  
+  .submit-button {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  .submit-button {
+    background-color: #3498db;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+  }
+  
+  /* Add any additional styles or adjustments as needed */
+  
+  @media screen and (max-width: 768px) {
+    .price-intro {
+      height: auto; /* Adjust height for smaller screens */
+    }
+  
+    .studio-container {
+      margin: 10px; /* Adjust margin for smaller screens */
+    }
+  
+    button {
+      width: 100%; /* Make the button full width on smaller screens */
+    }
+  }

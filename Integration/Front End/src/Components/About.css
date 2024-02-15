@@ -1,0 +1,83 @@
+.a-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://img.freepik.com/free-photo/people-with-laptops-office_23-2147656717.jpg?w=900&t=st=1706300445~exp=1706301045~hmac=af8c69c69ab3a5220c35cf7b1c691f5cb4147e410578eb6779d052883ec62c2f");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0; 
+    animation: fadeIn 2s ease-in-out forwards; 
+  }
+
+
+  .a-intro h1 {
+    font-size: 60px;
+    color: #e6dbdb;
+    font-weight: bold;
+    margin: 0;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.a-about h2{
+    font-display: center;
+    text-transform: none;
+    text-align: center;
+  font-feature-settings: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.54444em;
+  font-size: 25px;
+  font-weight: 400;
+  overflow-wrap: normal;
+  color: rgb(38, 38, 38);
+  }
+
+  .abt-foot{
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .abt-social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .abt-social-icons svg {
+    cursor: pointer;
+  }
+  
+  .abt-social-icons svg:hover {
+    color: #000000; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .a-intro {
+      height: 300px;
+    }
+  
+    .a-intro h1 {
+      font-size: 40px; 
+    }
+  
+    .a-about h2 {
+      font-size: 20px; 
+    }
+  }

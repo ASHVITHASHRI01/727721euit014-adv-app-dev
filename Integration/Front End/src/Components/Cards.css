@@ -1,0 +1,64 @@
+.item-entire{
+    background-color: rgb(255, 255, 255);
+    height: 67vh;
+    width: 60vh;
+    border-style:solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 3%;
+    margin: 1vh ;
+    
+}
+.item-image{
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.item-desc{
+    height: 45vh;
+    padding: 1vh;
+    box-sizing: border-box;
+    
+}
+.item-desc-p1{
+    font-weight: 600;
+}
+.item-desc-p2{
+    color: rgb(75, 74, 74);
+}
+.item-desc-p3{
+    color: brown;
+}
+
+.enroll-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    background-color: #4caf50;
+    width:15%;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .enroll-button:hover {
+    background-color: #45a049;
+  }
+@media (max-width: 768px) {
+    .enroll-button {
+        width: 18%;
+        max-width: none; 
+      }
+    .item-entire {
+        width: 80vw;
+    }
+
+    .item-desc {
+        height: auto;
+    }
+    .item-desc-p2 {
+        font-size: 12px;
+      }
+}

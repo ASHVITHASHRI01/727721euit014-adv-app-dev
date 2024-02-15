@@ -1,0 +1,524 @@
+/* Home.css */
+
+@font-face {
+  font-family: 'Bellota';
+  src: url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+  .home-container {
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    /* overflow-y: auto; */
+  }
+
+  header {
+    background-color:  #293040;
+    color: #fff;
+    margin-top: -20px;
+    padding: -70px 0;
+    text-align: center;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    height:95px
+  }
+
+  .logo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 5ch;
+   
+  }
+
+  .logo img {
+   margin-top: 29px;
+   height: 5ch;
+
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1a2225;
+    font-weight: bold;
+  }
+  
+  .book ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book li {
+    margin-bottom: 10px;
+  }
+
+  .image-section {
+    text-align: right;
+    /* margin-bottom: -20px; */
+    align-items: right;
+    display: flex;
+    justify-content: flex-end;
+    background-attachment: fixed;
+    margin-top: -10px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin:0 auto;
+    display: block;
+    /* text-align: right; */
+    /* margin-left: 463px ; */
+  }
+  .home-text {
+    padding-left: 15%;
+    padding-top: 15%;
+    float: left;
+  }
+  .home-text img {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto;
+  }
+  
+  .home-text h1 {
+    font-size: 2em;
+  }
+  
+  .home-text p {
+    font-size: 1.2em;
+  }
+
+  .home-section {
+    flex: 1;
+    /* padding-right: 1px; */
+    text-align: right; /* Align content to the right */
+  }
+
+  .home-section img {
+    width: 700px;
+    height: 83vh;
+    /* noww Make the image responsive within its container */
+    
+  }
+  .home-left{
+    flex: 1;
+  }
+  .home-right{
+    flex: 1;
+    /* padding: 20px; */
+    text-align: right;
+    /* height: 83vh; now
+    width: 60%;
+    background-color: #62b770;
+    float: right; */
+  }
+  .content-container {
+    background-color: #f1e7e0;
+    display: flex;
+    justify-content: space-between; /*noe changed*/
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* height: auto; */
+  }
+
+  .centered-image img {
+    max-width: 100%;  /* Make the image responsive */
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+
+  .intro-text {
+    font-family: 'Bellota', sans-serif;
+    text-align: left;
+    /* padding: 20px; */
+    margin-top: 20px;
+    margin-right: 37px;
+    /* margin-left: 30px; */
+  }
+  
+  .intro-text h1 {
+    font-size: 2em; 
+    margin-bottom: 10px;
+    /* margin-left: -10px; */
+    /* margin-right: 10px; */
+  }
+  
+  .intro-text p {
+    font-size: 1.2em; 
+    color: #666; 
+  }
+  .home-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    /* margin-left: 60px; */
+    /* height: 160px; */
+  }
+  .home-cards h1 {
+    margin-bottom: 20px; /* Optional: Add some space between h1 and cards */
+  }
+  main {
+    padding: 20px;
+  }
+  
+  .news-home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ecf0f1;
+    max-width: AUTO;
+    margin:0 auto;
+  }
+  .news-home h1{
+    margin-bottom: 20px;
+  max-width: 82%; /* Make the text responsive within the max-width */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  }
+  .news-home h2{
+    margin-bottom: 20px;
+  max-width: 82%; /* Make the text responsive within the max-width */
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .news-home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ecf0f1;
+    max-width: AUTO;
+    margin:0 auto;
+  }  
+
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f1e7e0;
+    max-width: AUTO;
+    margin:0 auto;
+  }
+  
+  .hero h2 {
+    margin-bottom: 20px;
+  max-width: 82%; /* Make the text responsive within the max-width */
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(20, 215, 20);
+     /* #3498db; */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .home-hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f1e7e0;
+    max-width: AUTO;
+    margin:0 auto;
+  }  
+  
+
+  .yoga-class {
+    text-align: center;
+    padding: 30px 0 ;
+    background-color: #ecf0f1;
+    max-width: auto;
+    margin:0 auto;
+    margin-bottom: 5px;
+  }  
+
+  .yoga-class .yoga-pic img {
+    max-width: 900px; /* Adjust the percentage as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 500px;
+    transform: translateY(20px); /* Set initial translation for slide-up effect */
+    transition: opacity 1s, transform 1s; /* Adjust the maximum height as needed */
+
+  }
+
+  .yoga-class .yoga-pic img.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  
+  .gallery-item {
+    text-align: center;
+    width:300px;
+    height:270px;
+  }
+  /* .gallery-item h1{
+    text-align: center;
+  } */
+  .gallery-item img {
+    max-width: 100%; /* Maintain responsiveness */
+    height: 240px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto;
+}
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .home-abt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 800px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.pexels.com/photos/176162/pexels-photo-176162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0; 
+    transform: translateY(50px);
+    transition: opacity 1s, transform 0s;
+  }
+
+  .home-abt.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+  .home-abt h3 {
+    font-size: 40.5vw; /* Adjust the font size using viewport width */
+  max-width: 90%; /* Set a maximum width for larger screens */
+  margin: 10px 0; /* Add some margin for better spacing */
+  text-align: center;
+  color: #e6dbdb;
+
+
+  }
+
+  .foot{
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: auto;
+    bottom: 0;
+    width: 100%;
+  }
+  .home-social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .home-social-icons svg {
+    cursor: pointer;
+  }
+  
+  .home-social-icons svg:hover {
+    color: #000000; /* Change color on hover */
+  }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  z-index: 1000;
+  position: relative;
+}
+
+#menuButton {
+  display: none;
+  order: 2; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  list-style: none;
+  padding: 0;
+  margin-left: 790px;
+  margin-top: -50px;
+  /* margin-bottom: 30px; */
+  position: absolute;
+  background-color:  #293040;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content li {
+  padding-right: 50px;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-text img {
+    width: 70%; /* Adjust the image width for smaller screens */
+  }
+
+  .home-text h1 {
+    font-size: 1.2em; /* Adjust the heading font size for smaller screens */
+  }
+  .home-abt h3 {
+    font-size: 25px; /* Adjust font size for larger screens */
+  }
+
+  .home-book {
+    margin-left: 100px; /* Keep the left margin for larger screens */
+    margin-right: 10px;
+  }
+  .home-left,
+  .home-right,
+  .home-section {
+    flex: 100%;
+    text-align: center;
+  }
+
+  .home-section img {
+    max-width: 100%; 
+    height: auto;
+    height: 289px;
+  }
+
+  .content-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .image-section{
+    /* text-align: center; */
+    justify-content: right;
+  }
+  .image-section img {
+    margin: 0; /* Reset margin on larger screens */
+  }
+
+  .intro-text {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+
+  .home-book {
+    margin-right: -195px;
+    margin-left: 105px;
+    margin-top: -28px;
+    order: 1;
+  }
+
+  #menuButton {
+    display: block;
+    order: 3;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-left: 0;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+
+  .dropdown-content a {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .yoga-class .yoga-pic img {
+    max-width: 300px; /* Adjust the maximum width for larger screens */
+}
+.home-cards {
+  justify-content: center;
+  max-width: 100%; /* Center the cards on smaller screens */
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .home-abt h3 {
+    font-size: 48px; /* Adjust font size for even larger screens */
+  }
+}

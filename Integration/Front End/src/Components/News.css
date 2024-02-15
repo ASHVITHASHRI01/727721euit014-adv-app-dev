@@ -1,0 +1,63 @@
+.announcement-container {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    max-width: 860px;
+    margin-left: 150px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 2s, transform 3s;
+    will-change: opacity, transform;
+  }
+  
+  .announcement-container.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .date-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .date,
+  .month {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .information {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .information {
+        text-align: center;
+        font-size: 14px; 
+      }
+      strong {
+        font-size: 13px; 
+      }
+    .announcement-container {
+      max-width: 90%;
+      margin-left: auto;
+    }
+  
+    .date-month {
+      padding: 5px; 
+    }
+  }
+  

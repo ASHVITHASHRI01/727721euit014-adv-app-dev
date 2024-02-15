@@ -1,0 +1,10 @@
+.dash-container{
+    overflow: hidden;
+}
+.dropdown-content {
+    display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 100px; 
+  right: 20px; 
+  }

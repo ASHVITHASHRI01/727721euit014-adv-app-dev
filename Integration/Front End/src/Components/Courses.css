@@ -1,0 +1,129 @@
+
+.addcourse-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/4490439/pexels-photo-4490439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Specify the background image */
+    background-size: cover; 
+    background-position: center;
+    z-index: -1; 
+  }
+  
+  .container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: #f9f9f9; */
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: -50px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 25px;
+  }
+  
+  .field-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+
+  .flip-container {
+    perspective: 1000px;
+    display: inline-block;
+  }
+  
+  .flip-container:hover .flipper, .flip-container.flip .flipper {
+    transform: rotateY(180deg);
+  }
+  
+  .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .front {
+    z-index: 2;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    z-index: 1;
+  }
+  
